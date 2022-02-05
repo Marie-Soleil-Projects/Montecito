@@ -1,0 +1,221 @@
+.img-logo{
+    width:100px;
+    height: 55px;
+    padding: 10px;
+}
+
+header{
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    width: 100%;
+}
+
+.top-nav-carte{
+    position: static;
+}
+    
+main{
+    padding: 20px 0px;
+    color:white;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    padding:10px;
+    color:white;
+    text-align: center ;
+    font-size: 15px;
+}
+
+body{
+    margin:0;
+    font-family: concert one, cursive;
+    background-image: linear-gradient(45deg, black,red 60%, black);
+}
+
+.header-nav{
+    background-color: black;
+    width: 100%;
+    padding: 10px 0px 3px 0px;
+    display: flex;   
+    justify-content: right; 
+}
+
+.header-nav a{
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Concert One, cursive;
+    color: white;
+    
+}
+
+h1{
+    font-family: Corinthia, cursive;
+    font-size: 80px;
+    position: absolute;
+    top: 0px;
+    left: 630px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: white;
+}
+
+
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: concert one, cursive;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.histoire{
+    display: flex;
+    padding: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+}
+
+#notrehistoire{
+padding: 1em;
+font-size: 35px;
+display: block;
+}
+
+.total-carte{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    padding: 10px;
+}
+
+.total-carte img{
+    padding: 3px 0px;
+}
+
+.carte-cocktail:hover{
+    color: yellowgreen;
+    opacity: 60%;
+}
+
+.telechargement{
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.telechargement a{
+    text-decoration: underline yellow;
+}
+
+.boissons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.boissons a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+color: yellow;
+text-decoration: none;
+}
+
+.selected a{
+    color: yellow;
+}
+
+a h2{
+    color: white;
+}
+
+a h2:hover{
+    color: yellow;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.events-flex{
+    display: flex;
+    align-items: center;
+}
+
+.events-div{
+    width: 600px;
+    padding: 20px;
+}
+
+.contact-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-flex a{
+    color: white;
+    padding: 10px;
+}
+
+.contact-flex a:hover{
+    color: yellow;
+}
+
+.horaires{
+text-align: center;
+}
+
+.events-flex h3{
+    font-size: 40px;
+    color: white;
+}
+
+.events-flex a:hover{
+color: yellow;
+}
+
+.events-flex h3:hover{
+    color: yellow;
+    }
+
+.total-histoire {
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 0px;
+    display: flex;}
+
+#img-simon{
+    padding: 50px 0px;
+}
+
+table{
+    padding: 30px 100px;
+    justify-items: center;
+}
+
+table td{
+    padding: 10px;
+}
