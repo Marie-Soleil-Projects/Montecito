@@ -4,9 +4,14 @@
 }
 
 .img-logo{
-    width:100px;
-    height: 55px;
+    width: 150px;;
+    height: auto;
     padding: 10px;
+}
+
+.top-nav{
+    display:flex;
+    
 }
 
 header{
@@ -68,20 +73,21 @@ body{
 h1{
     font-family: Corinthia, cursive;
     font-size: 80px;
-    position: absolute;
-    top: 0px;
-    left: 630px;
     padding: 0;
     margin: 0;
     border: 0;
     color: white;
+    display: block;
+    align-content: center;
 }
 
+.logo2{
+width: 100%;
+text-align: center;
+}
 
-
-.top-nav{
-    display: flex;
-    justify-content: space-between;
+.logo{
+    width: auto;
 }
 
 h2{
@@ -231,9 +237,33 @@ color: yellow;
 
 table{
     padding: 30px 100px;
-    justify-items: center;
+    width: 100%;
 }
 
 table td{
     padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .header-nav{
+        display: block;
+        justify-content: center;
+    }
+    .header-nav div{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background-color: black;
+        border-bottom: solid white 2px;
+    }
+    .total-histoire{
+        display: block;
+        justify-content: center;
+    }
+    .histoire{
+     justify-content: center;   
+    }
+    
+    
 }
