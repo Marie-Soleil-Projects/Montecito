@@ -136,7 +136,6 @@ display: block;
     color: white;
     display: block;
     text-align: center;
-    animation: appear 5s;
 }
 
 ul{
@@ -222,7 +221,6 @@ color: yellow;
     font-size: 20px;
     padding: 10px 0px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 table{
@@ -323,15 +321,3 @@ iframe{
 
 }
 
-@keyframes appear{
-
-    from{
-        opacity: 0;
-    }
-
-    to{
-        opacity: 100%;
-
-    }
-
-}
