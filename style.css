@@ -97,8 +97,8 @@ h2{
     text-decoration: none;
     padding: 20px;
     margin: 0;
+    
 }
-
 
 .histoire{
     display: flex;
@@ -107,6 +107,12 @@ h2{
     flex-direction: column;
     align-items: flex-start;
     width: 700px;
+    animation: slideleft 2s ;
+}
+
+.photo-simon img{
+    animation: slideright 2s;
+    border-radius: 20%;
 }
 
 #notrehistoire{
@@ -126,30 +132,11 @@ display: block;
     padding: 3px 0px;
 }
 
-.carte-cocktail:hover{
-    color: yellowgreen;
-    opacity: 60%;
-}
-
 .telechargement{
     color: white;
     display: block;
     text-align: center;
-}
-
-.telechargement a{
-    text-decoration: underline yellow;
-}
-
-.boissons{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.boissons a{
-    color: white;
-    text-decoration: none;
+    animation: appear 5s;
 }
 
 ul{
@@ -159,18 +146,13 @@ ul{
 a:hover{
 color: yellow;
 text-decoration: none;
+
 }
 
 .selected a{
     color: yellow;
-}
+    transform: scale(1.1);
 
-a h2{
-    color: white;
-}
-
-a h2:hover{
-    color: yellow;
 }
 
 a:link{
@@ -182,16 +164,23 @@ a:link{
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
+    justify-content: center;
 }
 
 .events-div{
     width: 600px;
     padding: 20px;
+    animation: slideleft 2s;
 }
 
+.events-flex img{
+    animation: slideright 2s;
+    border-radius: 2.5%;
+}
 .contact-flex{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .contact-flex a{
@@ -201,6 +190,7 @@ a:link{
 
 .contact-flex a:hover{
     color: yellow;
+
 }
 
 .contact-li{
@@ -228,25 +218,27 @@ color: yellow;
     text-align: justify;
     align-content: center;
     align-items: center;
+    justify-content: center;
     font-size: 20px;
     padding: 10px 0px;
     display: flex;
     flex-wrap: wrap;
 }
-    
-
-#img-simon{
-    padding: 50px 0px;
-}
 
 table{
     padding: 30px 100px;
     width: 100%;
+    animation: slidebottom 2s;
 }
 
 table td{
     padding: 10px;
 }
+
+iframe{
+    animation: slidebottom 2s;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -261,6 +253,8 @@ table td{
         background-color: black;
         border-bottom: solid white 2px;
     }
+
+
     .total-histoire{
         display: block;
         justify-content: center;
@@ -268,6 +262,76 @@ table td{
     .histoire{
      justify-content: center;   
     }
+
+    .contact-flex{
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+    }
+
+    .contact-li{
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
     
-    
+}
+
+@keyframes slideleft{
+
+    from{
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+
+    to{
+        opacity: 100%;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slideright{
+
+    from{
+        opacity: 0;
+        transform: translateX(200px)
+    }
+
+    to{
+        opacity: 100%;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes slidebottom{
+
+    from{
+        opacity: 0;
+        transform: translateY(200px)
+    }
+
+    to{
+        opacity: 100%;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes appear{
+
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 100%;
+
+    }
+
 }
