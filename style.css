@@ -243,6 +243,7 @@ iframe{
     .header-nav{
         display: block;
         justify-content: center;
+        padding-bottom: 0;
     }
     .header-nav div{
         width: 100%;
@@ -252,13 +253,59 @@ iframe{
         border-bottom: solid white 2px;
     }
 
+    .top-nav{
+        display: block;
+        justify-content: center;
+    }
+
+    .img-logo{
+       display: block;
+      width: 25%;
+      margin: 0 auto;
+    }
+
 
     .total-histoire{
         display: block;
         justify-content: center;
+        padding-top:0;
     }
     .histoire{
-     justify-content: center;   
+     margin: 0 auto;
+     margin-top: 5px;
+     width: 90%;   
+     padding: 5px;
+    }
+
+    .photo-simon img{
+        display: block;  
+        width: 90%; 
+        margin: 0 auto;
+       }
+    
+    .site-content{
+        padding: 0;
+    }
+
+    .events-flex{
+        display: block;
+    }
+
+    .events-div{
+        padding-bottom: 1em;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .events-flex h3{
+        font-size: 20px;
+    }
+    .events-flex img{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 1em;
     }
 
     .contact-flex{
@@ -274,6 +321,26 @@ iframe{
         padding: 20px;
         width: 100%;
         text-align: center;
+    }
+
+    table{
+        padding: 0;
+
+    }
+
+    iframe{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        height: 200px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    nav:last-child{
+        border-bottom: none;
     }
 
     
