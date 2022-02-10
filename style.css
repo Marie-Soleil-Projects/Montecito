@@ -238,6 +238,10 @@ iframe{
     width: 100%;
 }
 
+address a{
+    color: white;
+}
+
 
 @media screen and (max-width: 800px) {
 
