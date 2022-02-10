@@ -291,14 +291,19 @@ address a{
      margin-top: 5px;
      width: 90%;   
      padding: 5px;
+     margin-bottom: 1em;
     }
 
     .photo-simon img{
         display: block;  
         width: 90%; 
         margin: 0 auto;
-       }
-    
+        margin-bottom: 1em;
+    }
+    .telechargement{
+        margin-bottom: 2em;
+
+    }
     .site-content{
         padding: 0;
     }
