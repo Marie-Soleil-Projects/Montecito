@@ -235,6 +235,7 @@ table td{
 
 iframe{
     animation: slidebottom 2s;
+    width: 100%;
 }
 
 
