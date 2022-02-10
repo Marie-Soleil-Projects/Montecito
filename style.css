@@ -363,7 +363,10 @@ address a{
     nav:last-child{
         border-bottom: none;
     }
-
+    
+    td{
+        font-size: 8px;
+    }
     
 }
 
