@@ -242,6 +242,17 @@ address a{
     color: white;
 }
 
+.mention{
+    font-size: 10px;
+}
+
+.mentions-legales{
+    display: block;
+    width: 90%;
+    color: white;
+    margin: 0 auto;
+
+}
 
 @media screen and (max-width: 800px) {
 
